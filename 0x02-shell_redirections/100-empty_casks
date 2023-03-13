@@ -1,2 +1,2 @@
 #!/bin/bash
-find . \( -empty \) -o \( -type f -name ".*" -empty \) printf "%f\n"
+find . \( -empty \) -o \( -type f -name ".*" -empty \) -printf "%f\n"
